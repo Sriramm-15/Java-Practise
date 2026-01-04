@@ -16,7 +16,6 @@ public class User {
         this.active = true;
     }
 
-    // ✅ ADD THESE
     public String getName() {
         return name;
     }
@@ -52,3 +51,4 @@ public class User {
         return id + " " + name + " " + email + " " + role + " " + active;
     }
 }
+
